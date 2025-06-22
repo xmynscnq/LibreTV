@@ -110,11 +110,6 @@ const API_SITES = {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
     },
-    apilsbzy1: {
-        api: 'https://apilsbzy1.com/api.php/provide/vod/at/json',
-        name: '老色'
-        adult: true
-    },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
         name: '空内容测试源',
@@ -153,11 +148,11 @@ const API_SITES = {
     //     name: '155资源',
     //     adult: true
     // },
-    // lsb: {
-    //     api: 'https://apilsbzy1.com',
-    //     name: 'lsb资源',
-    //     adult: true
-    // },
+    apilsbzy1: {
+        api: 'https://apilsbzy1.com/api.php/provide/vod/at/json',
+        name: '老色'
+        adult: true
+    },
     // huangcang: {
     //     api: 'https://hsckzy.vip',
     //     name: '黄色仓库',
