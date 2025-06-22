@@ -39,10 +39,10 @@ const API_SITES = {
         api: 'https://tyyszy.com/api.php/provide/vod',
         name: '天涯资源',
     },
-    // xiaomaomi: {
-    //     api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
-    //     name: '小猫咪资源',
-    // },
+    xiaomaomi: {
+        api: 'https://zy.xiaomaomi.cc/api.php/provide/vod',
+        name: '小猫咪资源',
+    },
     ffzy: {
         api: 'http://ffzy5.tv/api.php/provide/vod',
         name: '非凡影视',
@@ -109,6 +109,54 @@ const API_SITES = {
     ikun: {
         api: 'https://ikunzyapi.com/api.php/provide/vod',
         name: 'iKun资源'
+    },
+    apilsbzy1: {
+        api: 'https://apilsbzy1.com/api.php/provide/vod/at/json',
+        name: '老色'
+    },
+    bwzym3u8: {
+        api: 'https://api.bwzym3u8.com/api.php/provide/vod/at/json',
+        name: '百万'
+    },
+    155api: {
+        api: 'https://155api.com/api.php/provide/vod',
+        name: '155'
+    },
+    gayapi: {
+        api: 'https://gayapi.com/api.php/provide/vod/at/json',
+        name: 'gay'
+    },
+    thzy1: {
+        api: 'https://thzy1.me/api.php/provide/vod',
+        name: '桃花'
+    },
+    slapibf: {
+        api: 'https://slapibf.com/api.php/provide/vod',
+        name: '森林'
+    },
+    naixxzy: {
+        api: 'https://naixxzy.com/api.php/provide/vod',
+        name: '奶香香'
+    },
+    jkunzyapi: {
+        api: 'https://www.jkunzyapi.com/api.php/provide/vod',
+        name: 'JKUN'
+    },
+    caoliuzyw: {
+        api: 'https://www.caoliuzyw.com/api.php/prodao/vod/at/json',
+        name: '草榴'
+    },
+    fhapi9: {
+        api: 'http://fhapi9.com/api.php/provide/vod/at/json',
+        name: '番号'
+    },
+    ckzy: {
+        api: 'https://ckzy.me/api.php/provide/vod',
+        name: 'CK'
+    },
+    apiyutu: {
+        api: 'https://apiyutu.com/api.php/providedao/vod',
+        name: '玉兔'
     },
     testSource: {
         api: 'https://www.example.com/api.php/provide/vod',
