@@ -23,8 +23,8 @@ const SITE_CONFIG = {
 // API站点配置
 const API_SITES = {
     testSource: {
-        api: 'https://example.com/api.php/provide/vod',
-        name: '空内容测试源',
+        api: 'http://api.ffzyapi.com/api.php/provide/vod',
+        name: '非凡资源',
         adult: true
     }
     //ARCHIVE https://telegra.ph/APIs-08-12
