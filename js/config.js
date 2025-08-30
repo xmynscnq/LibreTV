@@ -26,8 +26,108 @@ const API_SITES = {
         api: 'http://api.ffzyapi.com/api.php/provide/vod',
         name: '非凡资源',
         adult: true
+    },
+    hongniuzy: {
+        api: 'http://hongniuzy2.com/api.php/provide/vod/from/hnm3u8',
+        name: '红牛资源',
+        adult: false
+    },
+    quantum: {
+        api: 'http://cj.lziapi.com/api.php/provide/vod/from/lzm3u8',
+        name: '量子资源',
+        adult: false
+    },
+    openMovie: {
+        api: 'http://vod-demo.onrender.com/pubdovod.php',
+        name: '开放电影',
+        adult: false
+    },
+    qualityResource: {
+        api: 'http://api.1080zyku.com/inc/api.php/provide/vod',
+        name: '优质资源库',
+        adult: false
+    },
+    fortyNineMovies: {
+        api: 'http://39kan.com/api.php/provide/vod',
+        name: '39影視',
+        adult: false
+    },
+    paradiseResource: {
+        api: 'http://vipmv.cc/api.php/provide/vod',
+        name: '天堂资源',
+        adult: false
+    },
+    lehoov: {
+        api: 'http://lehootv.com/api.php/provide/vod',
+        name: '乐活影视',
+        adult: false
+    },
+    tangrenjie: {
+        api: 'http://tangrenjie.tv/api.php/provide/vod',
+        name: '唐人街',
+        adult: false
+    },
+    kudian: {
+        api: 'http://api.kuapi.cc/api.php/provide/vod',
+        name: '酷点资源',
+        adult: false
+    },
+    wolongzy: {
+        api: 'http://collect.wolongzyw.com/api.php/provide/vod',
+        name: '卧龙资源',
+        adult: false
+    },
+    fastCar: {
+        api: 'http://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8',
+        name: '快车资源',
+        adult: false
+    },
+    lightningResource: {
+        api: 'http://sdzyapi.com/api.php/provide/vod/from/sdm3u8',
+        name: '闪电资源',
+        adult: false
+    },
+    jinyingResource: {
+        api: 'http://jyzyapi.com/provide/vod/from/jinyingm3u8',
+        name: '金鹰资源',
+        adult: false
+    },
+    guangsuResource: {
+        api: 'http://api.guangsuapi.com/api.php/provide/vod/from/gsm3u8',
+        name: '光速资源',
+        adult: false
+    },
+    aosikazy: {
+        api: 'http://aosikazy.com/api.php/provide/vod',
+        name: '奥斯卡资源网',
+        adult: false
+    },
+    adaResource: {
+        api: 'http://api.apilyzy.com/api.php/provide/vod',
+        name: '老鸭资源采集',
+        adult: false
+    },
+    ukResource: {
+        api: 'http://api.ukuapi.com/api.php/provide/vod',
+        name: 'U酷资源',
+        adult: false
+    },
+    beidouxing: {
+        api: 'http://m3u8.bdxzyapi.com/api.php/provide/vod',
+        name: '北斗星资源',
+        adult: false
+    },
+    yinghuaResource: {
+        api: 'http://m3u8.apiyhzy.com/api.php/provide/vod',
+        name: '樱花资源网',
+        adult: false
+    },
+    fastCar2: {
+        api: 'https://caiji.kczyapi.com/api.php/provide/vod/from/kcm3u8/',
+        name: '快车资源2',
+        adult: false
     }
-    //ARCHIVE https://telegra.ph/APIs-08-12
+    // 可以继续加入更多API接口
 };
 
 // 定义合并方法
@@ -44,7 +144,7 @@ window.extendAPISites = extendAPISites;
 const AGGREGATED_SEARCH_CONFIG = {
     enabled: true,             // 是否启用聚合搜索
     timeout: 8000,            // 单个源超时时间（毫秒）
-    maxResults: 10000,          // 最大结果数量
+    maxResults: 10000,        // 最大结果数量
     parallelRequests: true,   // 是否并行请求所有源
     showSourceBadges: true    // 是否显示来源徽章
 };
